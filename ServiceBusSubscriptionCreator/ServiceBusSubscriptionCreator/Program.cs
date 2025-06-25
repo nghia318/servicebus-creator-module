@@ -1,10 +1,15 @@
 ﻿using Azure.Messaging.ServiceBus;
 using Azure.Messaging.ServiceBus.Administration;
+using DotNetEnv;
+using System;
+using System.IO;
+using System.Reflection;
+using System.Threading.Tasks;
 
 public class Project
 {
-    private const string TopicConnectionString = "Endpoint=sb://srvbusstandard.servicebus.windows.net/;SharedAccessKeyName=connection;SharedAccessKey=73jnWHoPwRFGvg+LDEVmo+ey1ur1ZQPRv+ASbFcDV8Y=;EntityPath=firsttopic";
-    private const string TopicName = "firsttopic";
+    private static string? TopicConnectionString;
+    private static string? TopicName;
     private const string TrueFilterSubscriptionName = "true-subs";
     private const string FalseFilterSubscriptionName = "false-subs";
     // rule name 
@@ -23,6 +28,22 @@ public class Project
 
     public static async Task Main(string[] args)
     {
+        string projectDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        // Navigate up from bin\Debug\net8.0 to project root
+        while (projectDirectory != null && !File.Exists(Path.Combine(projectDirectory, "ServiceBusSubscriptionCreator.csproj")))
+        {
+            projectDirectory = Directory.GetParent(projectDirectory)?.FullName;
+        }
+       
+        string envFilePath = Path.Combine(projectDirectory, ".env");
+        
+        Env.Load(envFilePath);
+       
+        TopicConnectionString = Environment.GetEnvironmentVariable("TOPIC_CONNECTION_STRING");
+        TopicName = Environment.GetEnvironmentVariable("TOPIC_NAME");
+
+        Console.WriteLine(TopicConnectionString);
+        // Initialize Service Bus admin client
         var adminClient = new ServiceBusAdministrationClient(TopicConnectionString);
 
         try

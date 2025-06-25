@@ -24,3 +24,8 @@ C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscript
 C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\obj\Debug\net8.0\ServiceBusSubscriptionCreator.genruntimeconfig.cache
 C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\obj\Debug\net8.0\ref\ServiceBusSubscriptionCreator.dll
 C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\obj\Debug\net8.0\ServiceBusSubscriptionCreator.sourcelink.json
+C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\lee\Desktop\servicebus-quickstart\ServiceBusCreator\ServiceBusSubscriptionCreator\ServiceBusSubscriptionCreator\bin\Debug\net8.0\Sprache.dll

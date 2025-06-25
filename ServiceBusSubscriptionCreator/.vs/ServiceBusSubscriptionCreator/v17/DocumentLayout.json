@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C641E975-6D8E-405E-A14F-B647E66B488B}|ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator.csproj|c:\\users\\lee\\desktop\\servicebus-quickstart\\servicebuscreator\\servicebussubscriptioncreator\\servicebussubscriptioncreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C641E975-6D8E-405E-A14F-B647E66B488B}|ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator.csproj|solutionrelative:servicebussubscriptioncreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C641E975-6D8E-405E-A14F-B647E66B488B}|ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator.csproj|c:\\users\\lee\\desktop\\servicebus-quickstart\\servicebuscreator\\servicebussubscriptioncreator\\servicebussubscriptioncreator\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C641E975-6D8E-405E-A14F-B647E66B488B}|ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator.csproj|solutionrelative:servicebussubscriptioncreator\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\lee\\Desktop\\servicebus-quickstart\\ServiceBusCreator\\ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator\\.env",
+              "RelativeDocumentMoniker": "ServiceBusSubscriptionCreator\\.env",
+              "ToolTip": "C:\\Users\\lee\\Desktop\\servicebus-quickstart\\ServiceBusCreator\\ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator\\.env",
+              "RelativeToolTip": "ServiceBusSubscriptionCreator\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-25T04:24:47.18Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +41,9 @@
               "RelativeDocumentMoniker": "ServiceBusSubscriptionCreator\\Program.cs",
               "ToolTip": "C:\\Users\\lee\\Desktop\\servicebus-quickstart\\ServiceBusCreator\\ServiceBusSubscriptionCreator\\ServiceBusSubscriptionCreator\\Program.cs",
               "RelativeToolTip": "ServiceBusSubscriptionCreator\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T06:46:51.335Z",
+              "WhenOpened": "2025-06-25T04:05:43.472Z",
               "EditorCaption": ""
             }
           ]

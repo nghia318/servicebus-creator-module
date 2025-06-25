@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServiceBusSubscriptionCreator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eedcc1574988662578cfbf80abf074d4f1ad929c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a17f0c3f65da9ab72d61d78f3d960e1a8eb88f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiceBusSubscriptionCreator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServiceBusSubscriptionCreator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
